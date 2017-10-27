@@ -2,9 +2,17 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-servers',
-  templateUrl: './servers.component.html',
-  styleUrls: ['./servers.component.css']
+  // selector: `[app-servers]`,  //by attribute ID
+  // selector:'.app-servers',  //by class
+  // templateUrl: './servers.component.html',  //file template
+  styleUrls: ['./servers.component.css'], //file style.css
+  template: `
+    <app-server></app-server>
+    <app-server></app-server>
+  `
 })
+//html template
+
 export class ServersComponent implements OnInit {
 
   constructor() { }

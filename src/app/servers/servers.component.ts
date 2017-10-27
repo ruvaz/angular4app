@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
   // templateUrl: './servers.component.html',  //file template
   styleUrls: ['./servers.component.css'], //file style.css
   template: `
-    <app-server></app-server>
-    <app-server></app-server>
+    <app-server></app-server> 
   `
 })
 //html template
